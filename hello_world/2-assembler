@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -s $CFEILE c -o
+gcc -S $CFEILE c
