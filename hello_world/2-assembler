@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFEILE s
+gcc -S $CFEILE >${CFILE::-2}"s"
