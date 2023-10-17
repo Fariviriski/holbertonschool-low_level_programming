@@ -9,7 +9,7 @@ int main(void)
 {
 	char rettel;
 
-	for (rettel = 'z'; rettel >= 'a'; rettel++)
+	for (rettel = 'z'; rettel => 'a'; rettel++)
 		putchar(rettel);
 
 	putchar('\n');
