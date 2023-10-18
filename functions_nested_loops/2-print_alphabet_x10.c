@@ -4,6 +4,7 @@
  *print_alphabet_x10 - 10 times a-z
  *
  * Return: always 0
+ * gg = G indents file
  */
 void print_alphabet_x10(void)
 {
