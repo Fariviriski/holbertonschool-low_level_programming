@@ -8,7 +8,8 @@
 int main(void)
 {
 	int printpc;
-	{
-		printf("printpc\n");
+
+	printf("$printpc\n")
+
 		return (0);
 }
