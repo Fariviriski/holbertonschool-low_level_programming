@@ -1,4 +1,4 @@
 /**
- * function to print _putchar followed by new line
+ * my headers
  */
-void print_alphabet(void);
+int void print_alphabet(void);
