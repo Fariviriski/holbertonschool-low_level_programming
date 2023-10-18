@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  *print_alphabet_x10 - 10 times a-z
@@ -6,16 +7,17 @@
  */
 void print_alphabet_x10(void) 
 {
+	char alpha;
 	int i = 0;
 
-	while(i<=9)
+	while (i<=9)
 	{
-		char alpha;
 			for (alpha = 'a'; alpha <= 'z'; alpha ++)
 			{
 				putchar(alpha);
 			}
 		putchar('\n');
+		alpha ++;
 	}
 }
 
