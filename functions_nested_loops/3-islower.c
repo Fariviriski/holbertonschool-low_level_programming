@@ -5,17 +5,13 @@
  *
  * Return: 0 or 1 if lowercase c
  */
-
-int main(void)
+int _islower(int c)
 {
-    int r;
-
-    r = _islower('H');
-    putchar(r + '0');
-    r = _islower('o');
-    putchar(r + '0');
-    r = _islower(108);
-    putchar(r + '0');
-    putchar('\n');
-    return (0);
+	if (isupper(c))
+	{
+		return (1);
+	} else {
+		return (0);
+	}
 }
+
