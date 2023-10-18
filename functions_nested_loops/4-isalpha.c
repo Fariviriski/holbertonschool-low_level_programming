@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _isalpha: Defines character as number or alphabetical
+ * _isalpha - Defines character as number or alphabetical
  *
  * @c: input character
  *
