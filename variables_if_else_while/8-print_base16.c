@@ -2,7 +2,7 @@
 /**
  * main - prints single digit numbers base of 16 no print f :(
  *
- * Return: numbers base 16 
+ * Return: numbers base 16
  */
 int main(void)
 		{
