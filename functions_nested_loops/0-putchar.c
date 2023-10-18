@@ -11,4 +11,4 @@ int main(void)
 	{
 		printf("printpc\n");
 		return (0);
-}0
+}
