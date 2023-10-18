@@ -7,9 +7,7 @@
 
 int main(void)
 {
-	int printpc;
-
-	printf("$printpc\n")
+	printf("_putchar\n");
 
 		return (0);
 }
