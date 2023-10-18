@@ -1,11 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - prints alphabet
  *
  * Return: always 0
  */
-void print_alphabet(void);
 int main(void)
 {
 	char alpha;
