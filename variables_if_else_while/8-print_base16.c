@@ -2,15 +2,15 @@
 /**
  * main - prints single digit numbers base of 16 no print f :(
  *
- * Return: 012345678910
+ * Return: numbers base 16 
  */
-	int main(void)
+int main(void)
 		{
 				int n;
 				char lett;
 
 				for (n = 0; n < 10; n++)
-					putchar((n % 10) + '0');
+					putchar(n + '0');
 
 				for (lett = 'a'; lett <= 'f'; lett++)
 					putchar(lett);
