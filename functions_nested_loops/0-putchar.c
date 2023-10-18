@@ -8,5 +8,7 @@
 int main(void)
 {
 	int printpc;
+	{
+		printf(printpc);
 		return (0);
 }
