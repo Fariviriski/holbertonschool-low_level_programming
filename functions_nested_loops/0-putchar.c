@@ -9,6 +9,6 @@ int main(void)
 {
 	int printpc;
 	{
-		printf(printpc);
+		printf("printpc\n");
 		return (0);
-}
+}0
