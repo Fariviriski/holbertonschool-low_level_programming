@@ -3,7 +3,7 @@
 /**
  *_islower - returns loest char
  *
- *c: input character
+ * c: input character
  *
  * Return: 0 or 1 if lowercase c
  */
