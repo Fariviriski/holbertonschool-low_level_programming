@@ -1,2 +1,2 @@
-all:
-	touch school
+all:main.c holberton.c
+	gcc main.c holberton.c -o school
