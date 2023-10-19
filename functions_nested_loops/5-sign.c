@@ -12,10 +12,10 @@ int print_sign(int n)
 	char num;
 	{
 		if (n > 0)
-			putchar(num +);
+			putchar(num '+');
 		return (1);
 	}
-	if else
+	if (else)
 	{
 		if (n == 0)
 			putchar(num);
@@ -24,7 +24,7 @@ int print_sign(int n)
 	else
 	{
 		if (n < 0)
-			putchar(num -);
+			putchar(num '-');
 		return (-1);
 	}
 }
