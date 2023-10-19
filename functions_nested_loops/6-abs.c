@@ -1,10 +1,12 @@
 #include "main.h"
 /**
- * _abs - prints absolute value
- * @n: character input
- * _putchar: prints result of abs
+ *_abs - prints absolute value
  *
- * Return: always 0
+ *@n: character input
+ *
+ *_putchar: prints result of abs
+ *
+ *Return: always 0
  */
 int _abs(int n)	
 {
