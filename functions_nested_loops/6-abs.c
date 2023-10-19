@@ -14,5 +14,4 @@ int _abs(int n)
 		return (n);
 	else
 		return (n);
-	}
 }
