@@ -2,7 +2,8 @@
 #include "main.h"
 /**
  *print_sign - return 1+ if n>0, 0 if n=0, -1 if n<0
- *n: input character
+ *
+ *@n: input character
  *
  *Return: +1,-1,0
  */
