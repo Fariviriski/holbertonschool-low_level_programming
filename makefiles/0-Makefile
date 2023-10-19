@@ -1,2 +1,2 @@
 all:
-	./school
+	touch school.c
