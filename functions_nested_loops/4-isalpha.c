@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _isalpha - Defines character as number or alphabetical
+ *_isalpha - Defines character as number or alphabetical
  *
- * @c: input character
+ *@c: input character
  *
- * Return: 1 if true 0 if false
+ *Return: 1 if true 0 if false
  */
 int _isalpha(int c)
 {
