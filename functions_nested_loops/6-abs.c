@@ -16,7 +16,7 @@ int _abs(int n)
 	}
 	else
 	{
-		_abs(n);
+		math._abs(n);
 		return (n);
 	}
 }
