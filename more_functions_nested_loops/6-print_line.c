@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_lines - prints a straight line
+ * print_line - prints a straight line
+ * @n - number of chars
  */
 void print_line(int n)
 {
