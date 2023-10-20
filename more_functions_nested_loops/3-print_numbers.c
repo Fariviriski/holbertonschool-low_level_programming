@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_number - prints a character
+ * print_numbers - prints a character
  * _purchar - print funct
  */
 void print_numbers(void)
