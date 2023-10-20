@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- *
- *
- *
+ * print_diagonal - diag line
  */
 void print_diagonal(int n)
 {
