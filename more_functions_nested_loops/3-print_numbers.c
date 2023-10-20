@@ -2,7 +2,6 @@
 /**
  * print_number - prints a character
  * _purchar - print funct
- * @c: input character
  */
 void print_numbers(void)
 {
