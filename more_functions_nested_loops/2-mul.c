@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * mul - multiplies two inputs
- *
- *Return: a * b
+ * @a: first input
+ * @b: second input
+ * Return: a * b
  *
  */
 int mul(int a, int b)
