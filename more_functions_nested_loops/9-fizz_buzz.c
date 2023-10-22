@@ -2,9 +2,10 @@
 #include "main.h"
 /**
  * main - main function
+ * Return: always 0
  */
 
-void main(void)
+int main(void)
 {
 	int n;
 
@@ -18,5 +19,6 @@ void main(void)
 			printf("Buzz\n");
 		if (n % 3 == 0 && n % 5 == 0)
 			printf("Fizz Buzz\n");
-	}
+	}i
+	return (0);
 }
