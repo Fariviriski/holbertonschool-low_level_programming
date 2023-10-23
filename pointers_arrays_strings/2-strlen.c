@@ -7,9 +7,9 @@
 
 int _strlen(char *s)
 {
-	int len;
+	int lenght;
 
-	len = _strlen(*s);
+	lenght = _strlen(s);
 
-	return (0);
+		return (lenght);
 }
