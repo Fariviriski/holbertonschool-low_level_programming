@@ -13,6 +13,6 @@ int count = 0;
 	{
 	_putchar(str[count]);
 	count++
-	_putchar('\n');
 	}
+	_putchar('\n')
 }
