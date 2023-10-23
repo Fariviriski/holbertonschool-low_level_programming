@@ -7,9 +7,10 @@
 
 void _puts(char *str)
 {
-	int count = 0;
+int count = 0;
 
 	while(str[count] != '\0')
-		_putchar(count++);
+		count++;
+	_putchar(count);
 	_putchar('\n');
 }
