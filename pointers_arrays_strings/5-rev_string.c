@@ -1,8 +1,8 @@
 #include "main.h"
 /**
+ * rev_string - reverses a string
  *
- *
- *
+ * @i: integer to be reversed
  */
 void rev_string(char *s)
 {
