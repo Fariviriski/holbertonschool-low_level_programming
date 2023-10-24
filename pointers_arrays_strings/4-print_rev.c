@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *
- *
+ * _strlen - check len
+ * _putchar: prints reverse string
  *
  */
 
@@ -9,13 +9,13 @@ void rev_string(char *s)
 {
 	int i, len, temp;
 
-	lenght = _strlen(s) -1;
-	for (i = 0; i < _strlen(s)/2; i++0
+	len = _strlen(s) -1;
+	for (i = 0; i < _strlen(s)/2; i++)
 			{
 			temp = s[i];
 			s[i] = s[len];
 			s[len--]=temp;
 			}
-			_putchar(s)
+			_putchar(*s);
 			}
 
