@@ -1,11 +1,11 @@
 #include "main.h"
+
 /**
- * _strlen - check len
- * _putchar: prints reverse string
- *
+ * print_rev - prints in reverse a string*
+ * @s; string to be checked
  */
 
-void rev_string(char *s)
+void print_rev(char *s)
 {
 	int len = 0, index;
 
