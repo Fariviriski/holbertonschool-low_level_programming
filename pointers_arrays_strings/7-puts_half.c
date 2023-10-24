@@ -3,7 +3,6 @@
 /**
  * puts_half - prints half the string
  * @str: string to be halved
- *
  */
 
 void puts_half(char *str)
@@ -16,17 +15,17 @@ void puts_half(char *str)
 	}
 	if (len % 2 == 0)
 	{
-	for (i = len / 2; str[i] != '\0'; i++)
-	{
-		_putchar(str[i]);
-	}
+		for (i = len / 2; str[i] != '\0'; i++)
+		{
+			_putchar(str[i]);
+		}
 	}
 	else if (len % 2)
 	{
 		for (n = (len - 1) / 2; n < len - 1; n++)
-				{
-				_putchar(str[n + 1]);
-				}
+		{
+			_putchar(str[n + 1]);
+		}
 	}
 	_putchar('\n');
 }
