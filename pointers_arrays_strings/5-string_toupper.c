@@ -2,7 +2,7 @@
 /**
  * string_toupper - changes letters of a string to uppercase
  * @a: string to be changed
- * Return: uppercase string from pointed string
+ * Return: (a) uppercase string from pointed string
  */
 
 char *string_toupper(char *a)
@@ -16,4 +16,5 @@ char *string_toupper(char *a)
 			a[i] = a[i] - 32;
 		}
 	}
+	return (a);
 }
