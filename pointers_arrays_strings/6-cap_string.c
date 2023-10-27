@@ -7,21 +7,39 @@
 
 char *cap_string(char *s)
 {
-	int i = 0;
+	int i;
 
-	if (s[i] >= 97 && s[i] <= 122)
+	i = 0;
+
+	while (s[i] != '\0')
 	{
-		s[i] =s[i] -  32;
-	}
-	for (i = 1; s[i] != '\0'; i++)
-	{
-		if (s[i - 1] == 32)
+		if (s[i] >= 'a' && s[i] <= 'z')
 		{
-			if (s[i] >= 97 && s[i] <= 122)
-			{
+			char tmp;
+
+			tmp = s[i - 1];
+			if (tmp == '\t' || tmp == '\n')
 				s[i] = s[i] - 32;
-			}
+
+			if (tmp == '{' || tmp == '}')
+				s[i] = s[i] - 32;
+
+			if (tmp == '(' || tmp == ')')
+				s[i] = s[i] - 32;
+
+			if (tmp == ',' || tmp == '.' || tmp == ';')
+				s[i] = s[i] - 32;
+
+			if (tmp == '?' || tmp == '!')
+				s[i] = s[i] - 32;
+
+			if (tmp == ' ' || tmp == '"')
+				s[i] = s[i] - 32;
+
+			if (i == 0)
+				s[i] = s[i] - 32;
 		}
+		i++;
 	}
 	return (s);
 }
