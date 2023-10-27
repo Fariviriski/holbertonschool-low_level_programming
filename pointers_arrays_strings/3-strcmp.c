@@ -2,24 +2,19 @@
 /*
  * _strcmp - compares two strings
  * @index: index of a string
- * Return: 0 if equal, -1 is=f lesser, 1 if greater
+ * Return: 0 if equal, -1 if lesser, 1 if greater
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	int i;
-
-	while (i[s1] == i[s2])
+while (*s1 == *s2)
 	{
-		return (0);
+		if (*s1 == '\0')
+		{
+			return (0);
+		}
+		s1++;
+		s2++;
 	}
-
-	if (i[s1] < i[s2])
-	{
-		return (-1);
-	}
-	else
-	{
-		return (1);
-	}
+	return (*s1 - *s2);
 }
