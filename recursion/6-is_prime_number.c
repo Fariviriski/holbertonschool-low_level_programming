@@ -1,4 +1,5 @@
 #include "main.h"
+
 int ap(int n, int i);
 /**
  * is_prime_number - checksa to see if its 1 or 0, calls to recursion
@@ -7,7 +8,7 @@ int ap(int n, int i);
  */
 int is_prime_number(int n)
 {
-	if (n == 1 && n == 0)
+	if (n <= 1)
 		return (0);
 	return (ap(n, n - 1));
 }
@@ -24,5 +25,4 @@ int ap(int n, int i)
 		return (1);
 	if (n % i == 0 && i > 0)
 		return (0);
-	return (ap(n, i - 1)	);
-}
+	return (ap(n, i - 1));}
