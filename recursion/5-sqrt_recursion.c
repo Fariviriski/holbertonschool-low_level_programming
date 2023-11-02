@@ -3,6 +3,7 @@
 int actual_sqrt_recursion(int n, int i);
 /**
  * _sqrt_recursion - primary function to find square root
+ * actual_sqrt_recursion - mathematical equation for sqrt
  * @n: number to be checked
  * Return: call to recursion
  */
@@ -14,7 +15,7 @@ int _sqrt_recursion(int n)
 	return (actual_sqrt_recursion(n, 0));
 }
 
- /**
+/**
  * actual_sqrt_recursion - mathematical equation to fnd suqare root
  * @n: number to be cheked
  * @i: integer number
