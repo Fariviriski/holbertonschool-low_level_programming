@@ -5,7 +5,7 @@
  * main - prints sum of args positive nums
  * @argc: count
  * @argv: vector
- * Return : always 0
+ * Return: always 0
  */
 
 int main(int argc, char *argv[])
