@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * crate_array - creates array and init with spec char
+ * create_array - creates array and init with spec char
  * @size: size of array to be created
  * @c: the specific char for init
  * Return: NULL if size = 0 or if func null
