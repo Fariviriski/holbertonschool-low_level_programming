@@ -33,3 +33,4 @@ int actual_sqrt_recursion(int n, int i);
 int is_prime_number(int n);
 int ap(int n, int i);
 char *create_array(unsigned int size, char c);
+char *_strdup(char *str);
