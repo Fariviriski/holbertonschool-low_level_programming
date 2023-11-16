@@ -17,5 +17,5 @@ void print_dog(struct dog *d)
 	if (d->owner == NULL)
 		d->owner = "(Null)";
 
-	printf("name: %s\nage %f\nowner: %s\n", d->name, d->age, d->owner);
+	printf("name: %s\nage %f\nowner: %s", d->name, d->age, d->owner);
 }
