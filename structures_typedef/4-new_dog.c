@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 
-char *_strcopy(cha(char *dest, char *src);
+char *_strcopy(char *dest, char *src);
 
 /**
  * _strlen - retrun string lenght
