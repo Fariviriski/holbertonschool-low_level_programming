@@ -49,9 +49,9 @@ char *_strcopy(char *dest, char *src)
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-got_t *doge;
+dog_t *doge;
 
-	if (name == NULL | age < 0 || owner == NULL)
+	if (name == NULL || age < 0 || owner == NULL)
 	return (NULL);
 
 	doge = malloc(sizeof(dog_t));
