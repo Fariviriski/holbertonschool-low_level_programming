@@ -22,7 +22,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	}
 
 	n1 = atoi(argv[1]);
-	op = qrgv[2];
+	op = argv[2];
 	n2 = atoi(argv[3]);
 
 	if (get_op_func(op) == NULL || op[1] != '\0')
@@ -31,12 +31,8 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 		exit(99);
 	}
 
-	if (*op == '/' && n2 == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
-	if (*op == '%' && n2 == 0)
+	if ((*op == '/' && n2 == 0) ||
+			(*op == '%' && n2 == 0))
 	{
 		printf("Error\n");
 		exit(100);
