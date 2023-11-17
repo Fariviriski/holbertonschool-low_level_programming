@@ -70,7 +70,7 @@ dog_t *doge;
 	{
 		free(doge->name);
 		free(doge);
-		retrun(NULL);
+		return(NULL);
 	}
 
 	doge->name = _strcopy(doge->name, name);
