@@ -39,7 +39,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	new->key = strdup(key);
 	if (new->key == NULL)
 	{
-		fre(new);
+		free(new);
 		return (0);
 	}
 	new->value = value_cpy;
