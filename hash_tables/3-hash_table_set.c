@@ -1,0 +1,50 @@
+#include "hash_tables"
+/**
+ * hash_table_set - add or update the hashh
+ * @ht: points to the hashh
+ * @key: key to add 'no empty'
+ * @value: value of the key
+ * Return: 0
+ */
+int hash_table_set(hash_table_t *ht, const char *key, const char *value)
+{
+	hash_node_t *new;
+	char *value_cpy;
+	unsigned long int index, i;
+
+	if (ht == NULL || key == NULL || *key == '\0  || value == NULL)
+		return (0);
+
+	value_cpy = strdup(value);
+	if (value_cpy == NULL)
+		return(0);
+
+	index = key_index((const unsigned char *)key, ht->size);
+	for (i = index; ht->array[i]; i++)
+	{
+		if (strcmp(ht->array[i]->key, key) == 0)
+		{
+			free(ht->array[i]->value);
+			ht->array[i]->value = value_cpy;
+			return (1);
+		}
+	}
+
+	new = malloc(sizeof(hash_node_t));
+	if (new == NULL)
+	{
+		free(value_cpy);
+			return(0);
+	}
+	new->key = strdup(key);
+	if (new->key == NULL)
+	{
+		fre(new);
+		return (0);
+	}
+	new->value = value_cpy;
+	new->next = ht->array[index];
+	ht->array[index] = new;
+
+	return (1);
+}
