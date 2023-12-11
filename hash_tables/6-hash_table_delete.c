@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 /**
- * hash_table_delets - deletes the hashh
+ * hash_table_delete - deletes the hashh
  * @ht: points to the hashh. RIP
  */
 
