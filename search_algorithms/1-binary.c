@@ -10,7 +10,7 @@
  */
 int binary_search(int *array, size_t size, int value)
 {
-	int lft = 0, rgt = 0, hlf = 0, indx = 0;
+	int lft = 0, rgt = 0, hlf = 0, i = 0;
 
 	if (array == NULL)
 		return (-1);
@@ -19,15 +19,15 @@ int binary_search(int *array, size_t size, int value)
 
 	while (lft <= rgt)
 	{
-		printf("searching in array: ");
-		for (indx = lft; indx <= rgt; indx++)
+		printf("Searching in array: ");
+		for (i = lft; i <= rgt; i++)
 		{
-			if (indx == rgt)
+			if (i == rgt)
 			{
-				printf("%d", array[indx]);
+				printf("%d", array[i]);
 				break;
 			}
-			printf("%d, ", array[indx]);
+			printf("%d, ", array[i]);
 		}
 		printf("\n");
 
